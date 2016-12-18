@@ -29,10 +29,14 @@
 </head>
 <body>
   <div class="navbar w-nav" data-animation="over-right" data-collapse="medium" data-contain="1" data-duration="400">
-    <div class="w-container"><a class="logo-container w-nav-brand" href="index.html"><h1 class="logo-text">CRANIUM<strong>CANDY</strong></h1></a>
-      
-      <nav class="nav-menu w-nav-menu" role="navigation">
+    <div class="w-container">
 
+
+<%= link_to root_path, class: 'logo-container w-nav-brand' do %>
+<h1 class="logo-text">CRANIUM<strong>CANDY</strong></h1>
+<% end %>
+
+      <nav class="nav-menu w-nav-menu" role="navigation">
       <%= link_to "Home", root_path, class: "nav-link w-nav-link" %>
       <%= link_to "About Us", sales_about_path, class: "nav-link w-nav-link" %>
       <%= link_to "Pricing", sales_pricing_path, class: "nav-link w-nav-link" %>
@@ -44,6 +48,5 @@
     </div>
   </div>
 <%= yield %>
-
 </body>
 </html>

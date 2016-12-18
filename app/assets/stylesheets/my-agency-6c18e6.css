@@ -697,6 +697,7 @@ p {
   line-height: 38px;
   font-weight: 900;
   text-transform: uppercase;
+  transition : opacity 10.0s linear; opacity:100%;
 }
 
 .page-header-title.subtitle {
