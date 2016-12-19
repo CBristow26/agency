@@ -14,7 +14,3 @@
 //= require jquery_ujs
 //= require_tree .
 //= require bootstrap-sprockets
-h1 {
-	text-decoration: none;
-	text-transform: uppercase;
-}
